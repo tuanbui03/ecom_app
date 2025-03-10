@@ -1,7 +1,7 @@
 import 'package:ecom_app/core/configs/assets/app_vectors.dart';
 import 'package:ecom_app/core/configs/theme/app_colors.dart';
 import 'package:ecom_app/presentation/auth/pages/signin.dart';
-import 'package:ecom_app/presentation/spalsh/bloc/splash_state.dart';
+import 'package:ecom_app/presentation/splash/bloc/splash_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';

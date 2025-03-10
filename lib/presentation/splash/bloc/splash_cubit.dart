@@ -1,4 +1,4 @@
-import 'package:ecom_app/presentation/spalsh/bloc/splash_state.dart';
+import 'package:ecom_app/presentation/splash/bloc/splash_state.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 
