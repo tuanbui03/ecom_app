@@ -30,5 +30,9 @@ class AppTheme {
               textStyle:
                   const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(100)))));
+                  borderRadius: BorderRadius.circular(100)
+              )
+          )
+      )
+  );
 }
