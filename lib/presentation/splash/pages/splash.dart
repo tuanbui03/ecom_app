@@ -17,8 +17,12 @@ class SplashPage extends StatelessWidget {
     return BlocListener<SplashCubit, SplashState>(
       listener: (context, state) {
         if (state is UnAuthenticated) {
-          Navigator.pushReplacement(context,
-              MaterialPageRoute(builder: (context) => const SigninPage()));
+          Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(
+                  builder: (context) => const SigninPage()
+              )
+          );
         }
       },
       child: Scaffold(
